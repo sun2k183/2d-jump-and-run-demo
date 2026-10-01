@@ -53,5 +53,12 @@ export class JumpRunDemo extends GraphicsLoop {
 
         this.gameWorld.DrawWorld(ctx, time);
         this.player.DrawPlayer(ctx, time);
+
+        // debug code
+        ctx.fillStyle = 'white';
+        ctx.font = '16px sans-serif';
+        ctx.fillText(`Player position: (${this.player.x}, ${this.player.y})`, 10, 20);
+       
+     
     }
 }

@@ -1,4 +1,4 @@
-﻿class Util
+﻿export class Util
 {
     /**
      * Returns a random number between min (inclusive) and max (exclusive)
